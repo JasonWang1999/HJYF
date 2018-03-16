@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>火鸡要飞</title>
+
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="js/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+		body{
+			background-color:darksalmon
+		}
+		h1{
+			margin:20px
+		}
+		.navbar-default{
+			margin:0px
+		}
+		.carousel {
+			height:500px;
+			background-color: #000;
+			margin-bottom: 20px;
+		}
+		.carousel .item {
+			height: 500px;
+			background-color: #000;
+		}
+		.carousel img {
+			width:100%
+		}
+		#ly{
+			margin-top:20px;
+		}
+		.ly-left,.ly-right{
+			border:2px solid #d0312f;
+			border-radius: 20px;
+			padding: 20px;
+			margin: 10px;
+
+		}
+		.ly-left h1,.ly-right h1{
+			margin:10px;
+		}
+		.ly-left p{
+			background-color:#5A2817;
+			margin: 30px auto;
+			width: 65%;
+			line-height: 40px;
+			color: white;
+			border-radius: 10px;
+		}
+		.ly-right .form-group{
+			margin: 9px auto;
+		}
+		.ly-right .form-group button{
+			margin-top:100px;
+		}
+		
+		#ppjs,#cpjs{
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+
+		}
+		#ppjs{
+			background-image: url(../image/3.jpg);
+		}
+		#cpjs{
+			background-image: url(../image/4.jpg);
+		}
+
+		.ppjs,.cpjs{
+			line-height: 40px;
+			margin: 160px 0px;
+			padding: 20px;
+			border-radius: 10px;
+			background-color: hsla(359,100%,62%,0.80);
+			color: white
+		}
+		.ppjs h1,.cpjs h1{
+			font-size:20px;
+		}
+		#mwbl{
+			text-align:center;
+		}
+		#mwbl img{
+			width:80%;
+			height:80%
+		}
+		
+
+		#bq-contain{
+			padding-top: 20px;
+			background-color:#222222;
+			color: #FFFFFF;
+		}
+	</style>
+  </head>
+  <body>
+   
+   <!--导航栏-->
+    <nav class="navbar navbar-default navbar-inverse">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">火鸡要飞</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="#">首页 <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">咱的故事</a></li>
+        <li><a href="#">美味爆料</a></li>
+        <li><a href="#">进店看看</a></li>
+        <li  class="active"><a href="#">品牌合作</a></li>
+        <li><a href="#">新闻资讯</a></li>
+        <li><a href="#">联系热线：XXXXXXXX</a></li>   
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<!--轮播-->
+
+<div class="container">
+<div class="row">
+
+<img src="../image/pphz.jpg" class="img-responsive center-block">
+
+</div>
+</div>
+<!--请君留言-->
+<div class="container" id="ly">
+<h1 align="center">请君留言</h1>
+<div class="row">
+	<div class="col-md-6">
+	<div class="ly-left text-center">
+		<h4>中国餐饮原创IP体验品牌</h4>
+		<p>单店日销千单，霸屏朋友圈</p>
+		<p>研发能力强，产品线丰富，不受淡旺季影响</p>
+		<p>指导开店，考察签约成功报销路费</p>
+	</div>
+		
+	</div>
+	<div class="col-md-6">
+	<div class="ly-right text-center">
+		<h4>留言赠送5000元周边产品和设备礼包</h4>
+		<form class="form-inline">
+  <div class="form-group">
+		<label for="exampleInputName2">姓名</label>
+		<input type="text" class="form-control" id="exampleInputName2" placeholder="">
+	  </div>
+	  <div class="form-group">
+		<label for="exampleInputEmail2">电话</label>
+		<input type="email" class="form-control" id="exampleInputEmail2" placeholder="">
+	  </div>
+	  <div class="form-group">
+		<label for="exampleInputEmail2">邮箱</label>
+		<input type="email" class="form-control" id="exampleInputEmail2" placeholder="">
+	  </div>
+	  <div class="form-group">
+		<label for="exampleInputEmail2">Q Q</label>
+		<input type="email" class="form-control" id="exampleInputEmail2" placeholder="">
+	  </div>
+	  <div class="form-group" style="display: block;">
+	  <label for="exampleInputEmail2">留言</label>
+	  	<textarea class="form-control" rows="3" cols="55"></textarea>
+	  </div>
+	  <button type="submit" class="btn btn-default">点击领取</button>
+</form>
+
+		
+	</div>
+</div>
+</div>
+</div>
+<!--品牌亮点-->
+<div class="container-fluid" id="ppld-container">
+<h1 align="center">品牌亮点</h1>
+	<div class="row" id="ppjs">
+	<div class="container">
+	<div class="col-md-3"></div>
+	<div class="ppjs col-md-6">
+		<h1>品牌介绍</h1>
+		<p>市场经济下所有行业都在讲跨界，人生何尝不是在一次次尝试中跨界。世事无绝对，谁也不知道自己会在哪条路上成功。不想当厨子的飞行员不是个好工程师，不想成功的路人甲不是个好群演。找到自己的路,成功有无限可能。撸起袖子加油干，卤出理想味道，火鸡也能飞上天！</p>
+	</div>
+	<div class="col-md-3"></div>
+	</div>
+	</div>
+	<div class="row" id="cpjs">
+	<div class="container">
+	<div class="col-md-3"></div>
+	<div class="cpjs col-md-6">
+		<h1>产品介绍</h1>
+		<p>西方国家感恩节吃火鸡的传统，是一种重要的仪式。有别于烤火鸡的仪式感，烤火鸡本身的味道却不为大众所接受。火鸡饭以卤制的方式，解决了烤火鸡口味上的弊端，让火鸡肉更入味也更细致软烂。火鸡饭是台湾本土的著名美食，传承悠久，其中又以嘉义地区的火鸡饭尤为出名。</p>
+	</div>
+	<div class="col-md-3"></div>
+	</div>
+	</div>
+</div>
+
+<!--美味爆料-->
+<div class="container">
+<h1 align="center">美味爆料</h1>
+ <div class="row" id="mwbl">
+  <div class=" col-md-4">
+    <div class="thumbnail">
+      <img src="../image/mwbl1.jpg" alt="..." class="img-responsive center-block">
+      <div class="caption">
+        <h3>美味搭档</div>
+    </div>
+  </div>
+  <div class=" col-md-4">
+    <div class="thumbnail">
+      <img src="../image/mwbl1.jpg" alt="..." class="img-responsive center-block">
+      <div class="caption">
+        <h3>美味搭档</h3>
+  
+      </div>
+    </div>
+  </div>
+  <div class="col-md-4">
+    <div class="thumbnail">
+      <img src="../image/mwbl1.jpg" alt="..." class="img-responsive center-block">
+      <div class="caption">
+        <h3>便当外卖</h3>
+
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+<!--版权-->
+<div class="container-fluid" id="bq-contain">
+	<div class="row">
+			<div class="text-center .col-lg-12">
+			<h4>内部版权  </h4>
+		  <p>Copyright &copy; 2015 &middot; All Rights Reserved &middot;</p>
+			</div>
+	</div>
+</div>
+    <script src="../js/jquery-1.11.3.min.js"></script>
+
+    <script src="../js/bootstrap.min.js"></script>
+  </body>
+</html>
